@@ -1,0 +1,14 @@
+.header_container{
+    height: 50vh;
+    background-color: aqua;
+}
+
+.header_title{
+    position: relative;
+    top: 8vh;
+}
+
+.header_title h1{
+    font-size: 30px;
+}
+
