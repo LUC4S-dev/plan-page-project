@@ -1,7 +1,4 @@
-.header_container{
-    height: 50vh;
-    background-color: aqua;
-}
+
 
 .header_title{
     position: relative;
@@ -12,3 +9,11 @@
     font-size: 30px;
 }
 
+h1{
+    color: #FFB618;
+    font-weight: 900;
+}
+
+section p{
+    color: white;
+}
