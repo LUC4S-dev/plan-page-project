@@ -7,7 +7,7 @@
 
 .plans{
     position: relative;
-    height: 60vh;
+    height: 55vh;
     width: 22vw;
     top: 15vh;
     background-color: #3b3b3b;
@@ -21,7 +21,7 @@
 
 .plans_main{
     position: relative;
-    height: 65vh;
+    height: 60vh;
     width: 22vw;
     top: 15vh;
     background-color: #3b3b3b;
@@ -46,8 +46,38 @@
     margin: 30px;
 }
 
-.plans_price{
+.plans_price_main{
+    padding: 12px;
 }
+
+.plans_description{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.8vw;
+}
+
+hr{
+    margin: 20px;
+    color: #3b3b3b;
+}
+
+.plans_price_main{
+   font-size: 30px;
+}
+
+.plans_main ul{
+    list-style: none;
+    padding: 20px;
+    font-size: 0.8vw;
+}
+
+.plans_main ul li{
+    margin-bottom: 15px;
+}
+
+.plans_price_main span{
+    font-size: 17px;
+ }
 
 .plans_name_button{
     margin: 30px;
@@ -57,6 +87,10 @@
     border-radius: 20px;
     border: none;
     cursor: pointer;
+}
+
+.plans_button{
+    align-items: center;
 }
 
 
