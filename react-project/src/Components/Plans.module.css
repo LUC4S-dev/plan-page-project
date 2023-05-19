@@ -3,26 +3,13 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .plans{
     position: relative;
-    height: 55vh;
-    width: 22vw;
-    top: 15vh;
-    background-color: #3b3b3b;
-    z-index: 1;
-    margin: 15px;
-    border-radius: 10px;
-    color: white;
-    font-size: 18px;
-    font-weight: 900;
-}
-
-.plans_main{
-    position: relative;
-    height: 60vh;
-    width: 22vw;
+    max-height: 65vh;
+    max-width: 22vw;
     top: 15vh;
     background-color: #3b3b3b;
     z-index: 1;
@@ -43,12 +30,17 @@
 
 .plans_name{
     float: left;
-    margin: 30px;
+    margin: 25px;
 }
 
-.plans_price_main{
-    padding: 12px;
+.plans_price{
+    padding: 1.3vw;
+    font-size: 2vw;
 }
+
+.plans_price span{
+    font-size: 17px;
+ }
 
 .plans_description{
     padding-left: 15px;
@@ -61,36 +53,66 @@ hr{
     color: #3b3b3b;
 }
 
-.plans_price_main{
-   font-size: 30px;
-}
-
-.plans_main ul{
+.plans ul{
     list-style: none;
     padding: 20px;
     font-size: 0.8vw;
 }
 
-.plans_main ul li{
+.plans ul li{
     margin-bottom: 15px;
 }
 
-.plans_price_main span{
-    font-size: 17px;
- }
-
-.plans_name_button{
-    margin: 30px;
-    float: right;
-    width: 70px;
-    height: 22px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
+.plans_button{
+   text-align: center;
+   margin-bottom: 25px;
 }
 
-.plans_button{
-    align-items: center;
+.plans_button button{
+    height: 30px;
+    width: 10vw;
+    cursor: pointer;
+    background-color: #FFB618;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+@media (max-width: 600px){
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+
+    .plans{
+        min-width: 60vw;
+    }
+
+    .plans_button button{
+        width: 150px;
+    }
+    
+    hr{
+        display: none;
+    }
+
+    .plans_description{
+        font-size: 2.5vw;
+    }
+
+    .plans ul{
+        list-style: disc;
+        font-size: 2.5vw;
+        padding: 30px;
+    }
+
+    .plans_price{
+        padding: 3vw;
+        font-size: 5vw;
+    }
 }
 
 

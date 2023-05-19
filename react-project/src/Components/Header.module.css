@@ -1,5 +1,4 @@
 
-
 .header_title{
     position: relative;
     top: 8vh;
@@ -18,4 +17,16 @@ h1{
 section p{
     color: white;
     font-size: 1.3vw;
+}
+
+@media (max-width: 600px){
+    .header_title h1{
+        font-size: 6vw;
+    }
+
+    section p{
+        color: white;
+        font-size: 2.3vw;
+    }
+
 }
